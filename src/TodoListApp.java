@@ -14,7 +14,7 @@ public class TodoListApp {
             System.out.print("Valitse toiminto: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Tyhjennä rivinvaihto
+            scanner.nextLine();  
 
             switch (choice) {
                 case 1:
